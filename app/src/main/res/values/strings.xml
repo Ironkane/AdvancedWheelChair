@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Advanced Wheel Chair</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">My Wheel Chair</string>
+    <string name="nav_header_subtitle">this is a controller and monitor</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="navbar_logo">This the main logo</string>
+    <string name="navbar_monitor">Monitor</string>
+    <string name="navbar_control">Control</string>
+    <string name="navbar_emergency">Emergency</string>
+    <string name="navbar_connect">Connect</string>
+    <string name="navbar_header2">Communicate</string>
+    <string name="navbar_sos">SOS</string>
+    <string name="navbar_report">Report</string>
+    <string name="content_temperature">Temperature:</string>
+    <string name="content_pulserate">Pulse Rate:</string>
+    <string name="left_text">LEFT</string>
+    <string name="right_text">RIGHT</string>
+    <string name="forward_text">FORWARD</string>
+    <string name="reverse_text">REVERSE</string>
+</resources>

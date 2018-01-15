@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navbar_monitor"
+            android:icon="@mipmap/monitor"
+            android:title="@string/navbar_monitor" />
+        <item
+            android:id="@+id/navbar_control"
+            android:icon="@mipmap/remote"
+            android:title="@string/navbar_control" />
+        <item
+            android:id="@+id/navbar_emergency"
+            android:icon="@mipmap/sos"
+            android:title="@string/navbar_emergency" />
+        <item
+            android:id="@+id/navbar_connect"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/navbar_connect" />
+    </group>
+
+    <item
+        android:id="@+id/navbar_header2"
+        android:title="@string/navbar_header2">
+        <menu>
+            <item
+                android:id="@+id/navbar_sos"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/navbar_sos" />
+            <item
+                android:id="@+id/navbar_report"
+                android:icon="@mipmap/report"
+                android:title="@string/navbar_report" />
+        </menu>
+    </item>
+
+</menu>
